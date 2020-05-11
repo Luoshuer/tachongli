@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "san-tab": "/components/tab/index",
+    "mp-tabs": "/components/tabs/index",
+    "mp-dialog": "/miniprogram_npm/weui-miniprogram/dialog/dialog",
+    "san-swiper": "/components/swiper/index",
+    "san-collection": "/components/collection/index"
+  }
+}

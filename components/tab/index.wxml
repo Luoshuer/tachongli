@@ -1,0 +1,11 @@
+<!--components/tab/index.wxml-->
+<view class="section">
+  <view class="flex-wrp" style="flex-direction:row;">
+    <block wx:for="{{tab}}" wx:key="id">
+      <text class="flex-item {{num==index?'cur':''}}" bindtap="selectIndex" data-text="{{item.name}}" data-index="{{item.id}}">{{item.name}}</text>
+    </block>
+  </view>
+  <view class="section-search">
+    <image src="../images/search.png"></image>
+  </view>
+</view>

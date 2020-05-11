@@ -1,0 +1,2 @@
+/* pages/own/index.wxss */
+.own image{width: 100%;height: 1750rpx;}

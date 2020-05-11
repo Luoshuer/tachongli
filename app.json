@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/pub/index",
+    "pages/own/index",
+    "pages/logs/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "它家",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#444",
+    "selectedColor": "#dd514c",
+    "borderStyle": "white",
+    "background-color": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/indexs.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/pub/index",
+        "iconPath": "images/pub.png",
+        "selectedIconPath": "images/pub.png",
+        "text": "发布"
+      },
+      {
+        "pagePath": "pages/own/index",
+        "iconPath": "images/own.png",
+        "selectedIconPath": "images/owns.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

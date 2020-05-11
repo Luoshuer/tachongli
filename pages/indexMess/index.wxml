@@ -1,0 +1,8 @@
+
+<view>
+
+  <san-tab/>
+
+  <san-collection/>
+  
+</view>

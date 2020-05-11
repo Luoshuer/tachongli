@@ -1,0 +1,6 @@
+/* components/tab/index.wxss */
+.flex-wrp {display: flex;justify-content: center;}
+.section .flex-item{width: 70rpx;margin: 0 30rpx;text-align: center;color: #666;}
+.section .flex-item.cur{border-bottom: 3px  solid #ff4230;font-size: 36rpx;font-weight:bold;color: #000;}
+.section .section-search{position: absolute;top: 0rpx;right: 20rpx;}
+.section .section-search image{width: 60rpx;height: 60rpx;}

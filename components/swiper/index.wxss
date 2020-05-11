@@ -1,0 +1,3 @@
+/* components/swiper/index.wxss */
+.san-swiper{height:360rpx;}
+.san-swiper .slide-image{width: 100%;display: initial;}

@@ -1,0 +1,4 @@
+<!--pages/pub/index.wxml-->
+<view class="own">
+  <image src="../../images/pub-page.png"></image>
+</view>

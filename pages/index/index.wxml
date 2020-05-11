@@ -1,0 +1,43 @@
+<!--index.wxml-->
+<!-- <view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view> -->
+  
+<!-- <block wx:for="{{list}}" wx:key="id">
+  <view>{{item.title}}</view>
+  <text>{{item.city}}</text>
+  <view>
+    <text>{{item.marketing_start}}</text>
+  </view>
+  <image src='{{item.img}}'></image>
+</block> -->
+
+<view>
+<!--     <v-collection collected='{{collected}}' bind:collected='onCollection' /> -->
+  <san-tab/>
+  <san-swiper/>
+
+  <mp-tabs 
+    tabs="{{tabs}}" 
+    activeTab="{{activeTab}}" 
+    swiperClass="weui-tabs-swiper"
+    bindtabclick="onTabCLick"
+    bindchange="onChange"
+    activeClass="tab-bar-title__selected"
+  >
+    <block wx:for="{{content}}" wx:key="title">
+      <view class="tab-content" slot="tab-content-{{index}}" > {{item.title.con_live}} </view>
+    </block>
+  </mp-tabs>
+
+  <san-collection/>
+</view>

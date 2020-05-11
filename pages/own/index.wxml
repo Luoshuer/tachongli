@@ -1,0 +1,4 @@
+<!--pages/own/index.wxml-->
+<view class="own">
+  <image src="../../images/own-page.png"></image>
+</view>
