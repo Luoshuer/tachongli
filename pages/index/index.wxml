@@ -39,5 +39,19 @@
     </block>
   </mp-tabs>
 
+  <view>
+    <tabs>
+      <tab title='选项1'>
+          <view>111</view>
+      </tab>
+      <tab title='选项2' active>
+          <view>222</view>
+      </tab>
+      <tab title='选项3'>
+          <view> 333</view>
+      </tab>
+    </tabs>
+  </view>
+
   <san-collection/>
 </view>
